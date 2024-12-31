@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Mintro() {
+export default function Project() {
   return (
     <div>
-      <h1>HII !</h1>
+      grge
     </div>
   )
 }
