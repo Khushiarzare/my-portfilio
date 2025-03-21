@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom"
 import About from "./About"
-import Header from "./Header"
+
 import App from "./App"
 import Home from "./Home"
 import Cont from "./Cont"
@@ -26,7 +26,10 @@ export const MyRouter=createBrowserRouter(
                        },
                        {
                         path:"project",
-                        element:<Project/>
+                        element:<Project/>,
+                        
+
+                        
                        },
                        {
                        path:"cont",
